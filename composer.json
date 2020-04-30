@@ -1,0 +1,29 @@
+{
+  "name": "jakiboy/cloaker",
+  "version" : "0.0.1",
+  "type": "library",
+  "description": "Basic PHP Cloaker Class for Google",
+  "keywords": ["cloaker","cloaking","google"],
+  "homepage": "https://github.com/Jakiboy/Cloaker",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Jihad Sinnaour",
+      "email": "mail@jihadsinnaour.com",
+      "role": "Founder"
+    },
+    {
+      "name": "Softgine",
+      "email": "e-mailing@soft-gine.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4" : {
+      "Cloaker\\" : "src/"
+    }
+  }
+}
