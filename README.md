@@ -1,0 +1,2 @@
+# Cloaker
+PHP Cloaker Class
