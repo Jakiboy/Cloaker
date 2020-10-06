@@ -1,6 +1,6 @@
 {
   "name": "jakiboy/cloaker",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "type": "library",
   "description": "Basic PHP Cloaker Class for Google",
   "keywords": ["cloaker","cloaking","google"],
@@ -19,7 +19,7 @@
     }
   ],
   "require": {
-    "php": ">=5.6"
+    "php": ">=5.6.30"
   },
   "autoload": {
     "psr-4" : {
