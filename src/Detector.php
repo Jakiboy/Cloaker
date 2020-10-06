@@ -2,7 +2,7 @@
 /**
  * @author    : JIHAD SINNAOUR
  * @package   : VanillePlugin
- * @version   : 0.0.1
+ * @version   : 0.0.2
  * @copyright : (c) 2018 - 2020 JIHAD SINNAOUR <mail@jihadsinnaour.com>
  * @link      : https://jakiboy.github.io/VanillePlugin/
  * @license   : MIT
@@ -37,7 +37,7 @@ class Detector
 	{
 		$this->setUserAgent($useragent);
 		$this->reverseIp($ip);
-		$this->checkCloacking();
+		$this->checkCloaking();
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ class Detector
 	 * @param void
 	 * @return void
      */
-    protected function checkCloacking()
+    protected function checkCloaking()
     {
     	if ( $this->isGoogleDNS() || $this->isGoogleUA() ) {
     		$this->isGoogleBot = true;
